@@ -1,0 +1,50 @@
+.contenedor{
+    height: 370px;
+    width: 750px;
+    border: silver solid;
+    display: flex;
+    flex-direction: column;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.bloque1{
+    height: 100px;
+    width: 750px;
+    background-color: cadetblue;
+}
+
+.img_usuario{
+    height: 95px;
+    width: 95px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.bloque2{
+    margin-top: 50px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    line-height: 1px;
+}
+.ubicacion{
+    display: flex;
+    flex-direction: row;
+}
+
+.img_mapa{
+    height: 25px; width: 20px;
+    margin-right:8px ;
+}
+.img_tuerca{
+    height: 20px; width: 20px;
+}
+
+.editar{
+    font-size: 20px;
+    color:  rgb(26, 112, 192);
+}
